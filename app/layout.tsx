@@ -2,7 +2,7 @@ import './globals.css'
 import localFont from 'next/font/local'
 import { Inter } from 'next/font/google';
 
-export const TASA_ORBITER = localFont({
+const TASA_ORBITER = localFont({
   src: "TASAOrbiterVF.woff2",
   variable: "--font-tasa",
   display: "swap",
